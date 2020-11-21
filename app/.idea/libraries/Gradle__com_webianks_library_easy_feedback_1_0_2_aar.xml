@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.webianks.library:easy-feedback:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80bcfa1f08b8e9d802d08c3c7b22d505/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80bcfa1f08b8e9d802d08c3c7b22d505/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.webianks.library/easy-feedback/1.0.2/e96ac775cd9a21fa4425c0acebd9f3382e6851d9/easy-feedback-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

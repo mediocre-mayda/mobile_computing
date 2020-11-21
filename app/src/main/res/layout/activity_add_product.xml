@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools1="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools1:context=".AddProduct"
+    android:padding="10dp">
+
+    <ScrollView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add New Product"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:padding="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_movie_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Product Name"
+                    android:textColor="#fff"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Description"
+                    android:id="@+id/description"
+                    android:textColor="#fff"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Price"
+                    android:id="@+id/price"
+                    android:inputType="number"
+                    android:textColor="#fff"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="Enter Image URL "
+                    android:id="@+id/tiet_movie_logo"
+                    android:textColor="#fff"
+                    android:minLines="2"
+                    android:maxLines="5"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Select Category"-->
+                <!--android:textColor="#ecf0f1"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+            <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                <!--android:id="@+id/categoryspinner"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+
+            <Button
+                android:id="@+id/b_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Product"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/dark_rounded_shape"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    
+
+</LinearLayout>
