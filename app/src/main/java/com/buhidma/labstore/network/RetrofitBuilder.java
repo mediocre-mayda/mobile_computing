@@ -17,7 +17,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 public class RetrofitBuilder {
 
 
-    private static final String BASE_URL = "http://192.168.2.4/LAB-Store-Backend/public/api/";
+    private static final String BASE_URL = "http://192.168.1.124/LAB-Store-Backend/public/api/";
 
     private final static OkHttpClient client = buildClient();
     private final static Retrofit retrofit = buildRetrofit(client);
