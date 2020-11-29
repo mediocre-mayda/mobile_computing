@@ -1,4 +1,4 @@
-package com.buhidma.labstore;
+package com.zombie.docker;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;

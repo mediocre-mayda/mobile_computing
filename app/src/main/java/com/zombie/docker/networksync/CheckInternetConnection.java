@@ -1,4 +1,4 @@
-package com.buhidma.labstore.networksync;
+package com.zombie.docker.networksync;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.view.View;
 
-import com.buhidma.labstore.R;
+import com.zombie.docker.R;
 import com.geniusforapp.fancydialog.FancyAlertDialog;
 
 

@@ -1,6 +1,6 @@
-package com.buhidma.labstore.network;
+package com.zombie.docker.network;
 
-import com.buhidma.labstore.BuildConfig;
+import com.zombie.docker.BuildConfig;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.io.IOException;

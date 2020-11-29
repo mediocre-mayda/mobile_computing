@@ -1,4 +1,4 @@
-package com.buhidma.labstore.models;
+package com.zombie.docker.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

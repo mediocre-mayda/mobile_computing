@@ -1,8 +1,8 @@
-package com.buhidma.labstore.network;
+package com.zombie.docker.network;
 
 
-import com.buhidma.labstore.models.Product;
-import com.buhidma.labstore.models.User;
+import com.zombie.docker.models.Product;
+import com.zombie.docker.models.User;
 
 import java.util.List;
 

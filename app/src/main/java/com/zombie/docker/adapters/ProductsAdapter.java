@@ -1,4 +1,4 @@
-package com.buhidma.labstore.adapters;
+package com.zombie.docker.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.buhidma.labstore.R;
-import com.buhidma.labstore.models.Product;
-import com.buhidma.labstore.models.User;
-import com.buhidma.labstore.usersession.UserSession;
+import com.zombie.docker.R;
+import com.zombie.docker.models.Product;
+import com.zombie.docker.usersession.UserSession;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

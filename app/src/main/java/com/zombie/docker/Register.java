@@ -1,14 +1,14 @@
-package com.buhidma.labstore;
+package com.zombie.docker;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.os.Bundle;
 
-import com.buhidma.labstore.models.User;
-import com.buhidma.labstore.network.ApiService;
-import com.buhidma.labstore.network.RetrofitBuilder;
-import com.buhidma.labstore.usersession.UserSession;
+import com.zombie.docker.models.User;
+import com.zombie.docker.network.ApiService;
+import com.zombie.docker.network.RetrofitBuilder;
+import com.zombie.docker.usersession.UserSession;
 
 import androidx.core.content.res.ResourcesCompat;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +23,7 @@ import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.buhidma.labstore.networksync.CheckInternetConnection;
+import com.zombie.docker.networksync.CheckInternetConnection;
 import com.creativityapps.gmailbackgroundlibrary.BackgroundMail;
 import com.kaopiz.kprogresshud.KProgressHUD;
 

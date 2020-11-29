@@ -1,13 +1,13 @@
-package com.buhidma.labstore;
+package com.zombie.docker;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.buhidma.labstore.adapters.ProductsAdapter;
-import com.buhidma.labstore.models.Product;
-import com.buhidma.labstore.network.ApiService;
-import com.buhidma.labstore.network.RetrofitBuilder;
-import com.buhidma.labstore.usersession.UserSession;
+import com.zombie.docker.adapters.ProductsAdapter;
+import com.zombie.docker.models.Product;
+import com.zombie.docker.network.ApiService;
+import com.zombie.docker.network.RetrofitBuilder;
+import com.zombie.docker.usersession.UserSession;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.squareup.picasso.Picasso;
 

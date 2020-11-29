@@ -1,11 +1,11 @@
-package com.buhidma.labstore.usersession;
+package com.zombie.docker.usersession;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.buhidma.labstore.LoginActivity;
+import com.zombie.docker.LoginActivity;
 
 import java.util.HashMap;
 

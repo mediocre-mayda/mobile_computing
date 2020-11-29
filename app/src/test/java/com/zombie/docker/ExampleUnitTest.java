@@ -1,4 +1,4 @@
-package com.buhidma.labstore;
+package com.zombie.docker;
 
 import org.junit.Test;
 

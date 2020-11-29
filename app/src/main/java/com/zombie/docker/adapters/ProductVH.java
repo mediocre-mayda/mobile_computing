@@ -1,4 +1,4 @@
-package com.buhidma.labstore.adapters;
+package com.zombie.docker.adapters;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.buhidma.labstore.R;
+import com.zombie.docker.R;
 
 class ProductVH extends RecyclerView.ViewHolder {
     TextView name, price;

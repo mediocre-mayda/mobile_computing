@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.buhidma.labstore">
+    package="com.zombie.docker">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".init.CustomApplication"
+        android:name="com.zombie.docker.init.CustomApplication"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
@@ -17,9 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".AddProduct"></activity>
+        <activity android:name="com.zombie.docker.AddProduct"></activity>
         <activity
-            android:name=".Home"
+            android:name="com.zombie.docker.Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
@@ -32,7 +32,7 @@
             android:value="5" />
         <meta-data
             android:name="AA_MODELS"
-            android:value="com.beingdev.magicprint.db.Notification" />
+            android:value="com.zombie.docker.Notification" />
         <!--
         Add the following to your AndroidManifest.xml to prevent the launching of your main Activity
         if you are calling startActivity above.
@@ -42,12 +42,12 @@
             android:value="DISABLE" />
 
         <activity
-            android:name=".Register"
+            android:name="com.zombie.docker.Register"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.zombie.docker.LoginActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>

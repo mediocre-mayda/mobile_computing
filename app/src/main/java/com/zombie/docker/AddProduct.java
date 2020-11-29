@@ -1,4 +1,4 @@
-package com.buhidma.labstore;
+package com.zombie.docker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.buhidma.labstore.network.ApiService;
-import com.buhidma.labstore.network.RetrofitBuilder;
+import com.zombie.docker.network.ApiService;
+import com.zombie.docker.network.RetrofitBuilder;
 import com.google.android.material.textfield.TextInputEditText;
 
 import es.dmoral.toasty.Toasty;
