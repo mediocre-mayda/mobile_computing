@@ -39,6 +39,7 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
                 android:theme="@style/TextLabel">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -46,50 +47,52 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Product Name"
-                    android:textColor="#fff"
-                    />
+                    android:textColor="#fff" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
                 android:theme="@style/TextLabel">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Description"
-                    android:id="@+id/description"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
                 android:theme="@style/TextLabel">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Price"
-                    android:id="@+id/price"
                     android:inputType="number"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
                 android:theme="@style/TextLabel">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_movie_logo"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:hint="Enter Image URL "
-                    android:id="@+id/tiet_movie_logo"
-                    android:textColor="#fff"
+                    android:maxLines="5"
                     android:minLines="2"
-                    android:maxLines="5"/>
+                    android:textColor="#fff" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!--<TextView-->
