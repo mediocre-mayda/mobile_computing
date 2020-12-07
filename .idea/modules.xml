@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LAB-Store-Android.iml" filepath="$PROJECT_DIR$/LAB-Store-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LAB-Store-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LAB-Store-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="mobile_computing/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile_computing.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile_computing.iml" group="mobile_computing" />
     </modules>
   </component>
 </project>
