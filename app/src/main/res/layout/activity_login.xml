@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gradient_background"
+    android:background="@color/authui_colorAccent"
     android:gravity="center"
     tools:context="com.zombie.docker.LoginActivity">
 
