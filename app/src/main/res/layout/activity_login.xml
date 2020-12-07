@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/authui_colorAccent"
     android:gravity="center"
+    android:layoutDirection="ltr"
     tools:context="com.zombie.docker.LoginActivity">
 
     <ScrollView

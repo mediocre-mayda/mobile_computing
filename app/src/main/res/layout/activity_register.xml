@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:layoutDirection="ltr"
     android:background="@color/authui_colorAccent"
     tools:context="com.zombie.docker.Register">
 

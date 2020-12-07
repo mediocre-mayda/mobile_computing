@@ -93,10 +93,10 @@ public class Register extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Log.d(TAG, "onClick: reached onClick");
                 //TODO AFTER VALDATION
                 if (validateName() && validateEmail() && validatePass() && validateCnfPass() && validateNumber()) {
-
+                    Log.d(TAG, "onClick: if statement is true");
                     name = edtname.getText().toString();
                     email = edtemail.getText().toString();
                     password = edtcnfpass.getText().toString();
