@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.util.Log;
@@ -70,7 +71,7 @@ public class Home extends AppCompatActivity implements ProductsAdapter.OverflowM
 
     public void setupUpRecyclerView() {
 
-            GridLayoutManager mLayoutManager = new GridLayoutManager(this, 2);
+            LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
             rv.setLayoutManager(mLayoutManager);
             adapter = new ProductsAdapter(this, list, picasso, this, session);
             rv.setAdapter(adapter);

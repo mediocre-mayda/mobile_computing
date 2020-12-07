@@ -48,7 +48,8 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductVH> {
         Product currProduct = productList.get(position);
 
         holder.name.setText(currProduct.getName());
-        holder.price.setText(String.valueOf(currProduct.getPrice()));
+        holder.price.setText("$" + currProduct.getPrice());
+        holder.description.setText(currProduct.getDescription());
         mPicasso.load(currProduct.getImage()).into(holder.image);
 
         if(session.isAdmin()) {
