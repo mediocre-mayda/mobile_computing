@@ -33,7 +33,6 @@ public class RetrofitBuilder {
                                 .addHeader("Accept", "application/json")
                                 .addHeader("Connection", "close");
 
-                        git
 
                         return chain.proceed(request);
 
